@@ -1,5 +1,5 @@
 import express, { Application } from "express";
-// import expenseRoutes from "./routes/expense.routes";
+import expenseRoutes from "./routes/expense.routes";
 
 
 
@@ -9,16 +9,16 @@ class App {
     constructor() {
         this.app = express();
         this.initializeMiddlewares();
-        // this.initializeRoutes();
+        this.initializeRoutes();
     }
 
     private initializeMiddlewares() {
         this.app.use(express.json());
     }
 
-    // private initializeRoutes() {
-    //     this.app.use("/expense", expenseRoutes)
-    // }
+    private initializeRoutes() {
+        this.app.use("/expense", expenseRoutes)
+    }
 }
 
 
