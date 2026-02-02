@@ -1,12 +1,11 @@
 # Expense Tracker API
 
 ## Description
-A backend CRUD application built using Node.js, Express, TypeScript and MongoDB.
+A backend CRUD application built using Node.js, Express, TypeScript, and MongoDB.
 Implements clean OOP architecture with Controller-Service-Repository pattern.
 
 ## Features
 - Create, Read, Update, Delete expenses
-- Search, filter, sort and pagination
 - Validation and error handling
 - MongoDB integration
 
