@@ -1,4 +1,4 @@
-# Expense Tracker API
+# Expense Tracker
 
 ## Description
 A backend CRUD application built using Node.js, Express, TypeScript, and MongoDB.
@@ -19,13 +19,17 @@ Implements clean OOP architecture with Controller-Service-Repository pattern.
 ## Setup Instructions
 1. Clone the repository
 2. Install dependencies
+   ```
    npm install
-3. Start the server
+   ```
+4. Start the server
    npm run dev
 
 ## API Endpoints
+```
 POST /expenses  
 GET /expenses  
 GET /expenses/:id  
 PUT /expenses/:id  
 DELETE /expenses/:id
+```
